@@ -1,0 +1,27 @@
+			BASIC OPERATORS IN PYTHON
+
+In programming an operator is the construct which is used to manipulate the values of operands.
+
+On your terminal, invoke the python interpreter by tpying "python3" then the following are pressed
+
+	5 + 9
+	6 / 8
+	90 * 21
+
+You will notice that you can do this basic arithmetic calculations just by entering values separated by 
+operands such as plus(+), minus(-), division(/) and multiplication(*).
+
+
+		TPYES OF OPERATORS 
+
+There are seven types of operators supported by the python language. 
+They are:
+	
+	1.	Arithmetic operators
+	2.	Relational or comparism operators
+	3.	Assignment operators
+	4.	Logical operators
+	5.	Membership operators
+	6.	Identity operators
+	7.	Bitwise operators
+

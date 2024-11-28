@@ -1,0 +1,136 @@
+				HOW TO OPEN AND CLOSE TERMINAL
+
+	To open terminal is in two ways
+1. Press home key on your keyboard and type terminal to start the terminal emulator also known as ( cli ) which means
+command line interface.
+
+2. Press keyboard combination ( ctrl + alt + t ) keyboard shortcut keys to start the terminal emulator also known as 
+( cli ) which means command lines interface.
+
+	TO CLOSE TERMINAL:
+Inside the terminal type ( exit ) to close the terminal emulator also known as ( cli ) which means command lion
+interface.
+
+			TO INCREASE AND DECREASE THE TERMINAL PROMPT TEXT
+
+  TO INCREASE:
+Press keyboard combination (ctrl + shift+ ) to increase the terminal prompt text, the ( +) sign can be press multiple
+times while still holding the ( ctrl + shift ) to increase thge prompt.
+
+ TO DECREASE:
+
+Press keyboard combination ( ctrl and - ) to decrease the terminal prompt text, the ( ctrl and - ) to decrease the
+terminal prompt text, the (-) sign can be press multiple times while still holding ( ctrl ) to decrease the text 
+prompt.
+
+			HOW TO CREATE VITRTUAL ENVIRONMENT
+
+  Definition of virtualenv:
+Virtualenv allows us to create insulated system environment that will harm the main system of the make mistakes 
+or run any malicious program or command, it will not affect our real operating system, but only our created virtualenv
+will be affected or destroyed. 
+
+  TO ACTIVATE VIRTUALENV:
+
+Type ---> source name/bin/activate
+e.g  ---> source damilare/bin/actiavte
+
+ TO CREATE A DIRECTORY TO WRITE CODE:
+
+A directory is where content lives
+ Type ---> mkdir name ( name can be any name )
+ e.g ---> mkdir playground
+
+To change into the directory created or already existed: we use the command called ( cd ) 
+
+cd ---> means change directory
+Type ---> cd name ( name is a name of any) 
+
+
+			KALI SYSTEM
+
+The kali system is well organised, with index from ( 1 to 42 ) each index number has softwares that achieve the
+goal of that index number.
+
+			STUDIES AND DIRECTORY
+
+We need to install the tor browser which allows us to do deep studies and discovery base on what we ask tor.
+
+	HOW TO INSTALL TO BROWSER:
+
+Open the terminal emulator and run this commands.
+ Type ---> sudo apt-get install to browser launcher 
+
+How to run tor for proper installation of tor:
+ Type ---> tor browser_launcher
+ After complete installation of tor:
+To open tor press the ( window key ) search by typing ( tor browser ) click when found.
+
+	HOW TO USE VIM EDITOR
+ How to open file with vim editor:
+Type ---> vim name ( name can be any name of a file )
+e.g ---> vim handout.txt
+
+ How to give read and write access to vim:
+Press ---> i ( i means insert mode for read/write )
+
+How to quit or exit out of the vim editor:
+Press ---> esc ( esc means enter escape mode )
+Press ---> shift + : ( shift + : means terminal mode )
+Type ---> wq ( wq means write and quit ).
+
+
+			INTRODUCTION TO PYTHON 
+ 
+ What is python?
+Python is one of the numerous computer languages that are gaining popularity everyday. Python is a general high-level
+ language that is easy to learn and even easier tyo use.
+Python styles and philosophy emphasies on code readability  and simplicity. The python syntax make it easy for
+ programmer to write computer instructions in fewer lines of code compared to the number it would take to write
+ similar instructions in other languages such as java, c++, c and javascript.
+
+To view the core philosophy of python called Zen of python. first open python interpreter by typing python3
+ and press enter key.
+Type ---> import
+
+	WRITING PYTHON SCRIPT/PROGRAMME
+Every python script/programme must have suffix extension (.py) which denote that this is a python script/programme.
+
+#				Means ---> pre-processor
+!				Means ---> (NOT)
+/usr/bin/env python3   		Means ---> the system hierarchy where python3 is stored.
+python3 			Means ---> interpreter
+print is a built-in python function.
+
+	BASIC SYNTAX RULES IN PYTHON
+Before we can delve further into learning to write code in python, there few universal python syntax rules you
+grasp first. In thi section, we will cover the must basic rules you need to get started with your very first 
+python pogramme. We will learn more rules and best practices as will journey along.
+
+	PYTHON IDENTIFIERS
+An identifier is aname used to identify an object such as a variable modules, class, or function.
+ In the python language, an identifier must begin with an alphabelt letter in uppercase (A to Z ),
+ lowercase ( a to z ) or underscore (_) followed by more letters, underscores, or numeric digits. Python does 
+not allow the use of puntuation characters such as (%,/,$, or @ ) within the identifier name.
+It is also important to note that python is a case sensitive language. This means that an identifier (age)
+is not the same as ( AGE ) or (Age).
+
+	RESERVED WORDS OR KEYWORDS
+
+There are a number of words written in lowercase letters that are reserved and cannot be used as constants,
+variables, or variable identifiers.
+
+Here is a table of these reserved words or keywords
+
+and		assert		break		class		continue
+def		del		elif		else		except
+exec		finally		for		from		global
+if		import		in		is		lambda
+not		 or		pass		raise		return
+try		while		with		yield		false
+true		case		match		type		await
+async		nonlocal	_
+
+
+
+	

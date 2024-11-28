@@ -1,0 +1,59 @@
+			VARIABLES AND VALUES
+
+
+	VARIABLES AND ASSIGNMENT
+
+You were taught in basic algebra that a variable represent a number. The same apply in python, except that
+a variable can also represent other values besides numbers, which can be integer or float ( we will look at 
+these briefly), as an illustration, we took a variable "name" and assigned it a value "dami". We take another
+variable "X" and assigned it a value 10.
+
+Example:
+X = 10
+print(X) 
+
+The statement X = 10 is what is called an assignment statement. Assignment is associating a values with a
+variables. In python, the key to assignment statement is the use of an assignment operator which is the 
+symbol (=), as you know from maths, the equal sign.
+
+To put it in another way, the statement X = 10 binds a variable we named X to the value 10. In this case,
+X is a type INT because it is bound to a value of integer type.
+
+The print statement below display the assigned value of variable X. Re-assigning the variable a different
+value to the variable will evident after printing it.
+
+Example:
+X = 10
+print(X) 
+
+X = "Apple"
+print(X)
+
+When you run this code above here is what you should see:
+
+10 
+Apple
+
+You can assign a single value to several variables simultaneously in python.
+
+Example:
+X = Y = Z = 10
+print(X) 
+print(Y) 
+print(Z) 
+
+When you run the script above, you will notice that the values of variables X, Y, and Z are all 10. This is
+bescause an integer object with value 10 is created and all the variables are assigned to it's memory location.
+
+You can also assign multiple variable, multiple values in one line of code.
+
+Example:
+name, age, occupation = "Phillins", 21, "python programmer"
+print(name + age + occupation) 
+
+In the example above, three objects is "Phillins", 21, "python programmer" are assigned to variable name, age,
+and occupation respectively.
+
+Do not worry if the script print "phillins21pythonprogrammer" with no spaces you get the point. The print statement 
+in this example code above is for demonstration purpose. we will cover how to format your output later. 
+ 
