@@ -104,14 +104,14 @@ print is a built-in python function.
 
 	BASIC SYNTAX RULES IN PYTHON
 Before we can delve further into learning to write code in python, there few universal python syntax rules you
-grasp first. In thi section, we will cover the must basic rules you need to get started with your very first 
+grasp first. In this section, we will cover the must basic rules you need to get started with your very first 
 python pogramme. We will learn more rules and best practices as will journey along.
 
 	PYTHON IDENTIFIERS
 An identifier is aname used to identify an object such as a variable modules, class, or function.
  In the python language, an identifier must begin with an alphabelt letter in uppercase (A to Z ),
  lowercase ( a to z ) or underscore (_) followed by more letters, underscores, or numeric digits. Python does 
-not allow the use of puntuation characters such as (%,/,$, or @ ) within the identifier name.
+not allow the use of punctuation characters such as (%,/,$, or @ ) within the identifier name.
 It is also important to note that python is a case sensitive language. This means that an identifier (age)
 is not the same as ( AGE ) or (Age).
 
