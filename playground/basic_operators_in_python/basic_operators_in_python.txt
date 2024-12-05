@@ -1,3 +1,4 @@
+
 			BASIC OPERATORS IN PYTHON
 
 In programming an operator is the construct which is used to manipulate the values of operands.
@@ -24,4 +25,332 @@ They are:
 	5.	Membership operators
 	6.	Identity operators
 	7.	Bitwise operators
+
+
+	ARITHMETIC OPERATORS
+
+Start your text editor and carry out these excercise, to get some experience on how 
+arithmetic operators in python works.
+
+x, y, z, f = 27, 10, -9, 4
+
+a = x + y
+print("when you add x and y you get", a)
+
+b = x - y
+print("when you subtract y from x you get", b) 
+
+c = x * y
+print(" when you multiply x and y you get", c)
+
+d = x / z
+print(" when you divide x by z you get", d)
+
+e = x % y 
+print(e, "is the remainder when x is divide by y")
+
+g = x ** f
+print("x to the power of f is", g)
+
+h = x // y
+print("the floor division value of x divided by y is", h)
+
+Here is a table summarizing the above ( and more ) arithmetic operators used in python:
+
+		OPERATOR		DESCRIPTION 
+
+		+ Addition		adds two values on either sides
+
+		- subtraction		subtracts the value on the right side from that on the left
+
+		* multiplication	multiplies values on either sides
+
+		/ division		divides the value on the left side by that on the right
+
+		% modulus		divides the value on the left by that on the right and returns the remainder
+		
+		** exponent 		performs exponential ( power ) calculation 
+					of the value on the right by the value on the left 
+
+		// floor division	divides the value on the left by that on the right returns
+					the quotient value of the result (without the decimal values)
+
+
+	RELATIONAL OR COMPARISON OPERATORS
+
+As with the arimethic operators, we will learn comparison by first writting a script 
+running it to see the results. Carry out this excercises.
+
+x, y = 12, 10 
+
+if (x == y) :
+	print("1. x is equal to y")
+else :
+	print("1. x is not equal to y")
+
+if (x != y) :
+	print("2. x is not equal to y")
+else :
+	print("2. x is equal to y")
+
+if (x < y) :
+	print("3. x is less than y")
+else : 
+	print("3. x is not less than y")
+
+if (x > y) :
+	print("4. x is greater than y")
+else :
+	print("4. x is not greater than y")
+
+if (x <= y) :
+	print("5. x is either less than or equal to y")
+else :
+	print("5. x is neither less than nor equal to y")
+
+if (x >= y) :
+	print("6. x is either greater than or equal to y")
+else :
+	print("6. x is neither greater than nor equal to y")
+
+The table below demonstrate how to use all the relational or comparison operators in python:
+
+		OPERATORS		DESCRIPTION
+
+		== 			condition returns true if the value of the left and right operands are equal.
+
+		!=			Condition returns true if the values of the left and right operands are not equal.
+		
+		>			Condition returns true if the value of the left operand is greater than the
+					value of the right operand.
+
+		<			Condition returns true if the value of the left operand is less than
+					the value of the right operand 
+
+		>=			Condition returns true if the value of the left operand is greater or equal to
+					the value of the right operand.
+
+		<=			Condition returns true if the value of the left operand is less than or equal to
+					the value of the right operand.
+
+
+
+	ASSIGNMENT OPERATORS
+
+As the name suggest, assignment operators are used to assign values to variables.
+Excercise on how these operators are used:
+
+x, y, z = 12, 7, 0
+
+z = x + y
+print("1. value of z is ", z)
+
+z += x 
+print("2. value of z is", z)
+
+z *= x 
+print("3. value of z is", z)
+
+z /= x
+print("4. value of z is", z)
+
+z = 2
+z %= x
+print("5. value of z is", z)
+
+z **= x
+print("6. value of z is", z)
+
+z //= x
+print("7. value of z is", z)
+
+Here is a table that summarizies what each of the operators do
+
+		OPERATORS		DESCRIPTIONS
+		
+		=			The equal sign assigns values on the right operand to that on the left side.
+
+		+= add and 		Add the value of the right operand to the value of the left operand
+					then assign the result to left operand.
+
+		-= subtract and		Subtracts the value of the right operand from the value left operand
+					then assign the result to the left operand 
+
+		*= multiply and		Multiplies the value of the right operand with the value of the left operand
+					then assign the result to the left operand.
+
+		/= divide and 		Divides the value of the left operand by the value right operand
+					then assign the result to left operand.
+
+		%= modulus and 		Takes the modulus using the values of the two operands
+					then assign the result to left operand.
+
+		**= exponent and	Perform exponential (power) calculation of the operators then
+					assign the result to the left operand.
+
+		//= floor division 	It performs floor division on the operators then assigns the
+					result to the left operand.
+
+Other assignment operators we come across at an advanced stage of learning python are &=  |=  ^=  >>=  <<=
+
+
+
+	LOGICAL OPERATORS
+
+These are three logical operators in python and, or, not.
+
+x = True
+y = False
+
+print("when x is True and y is False")
+
+print("x and y is ", x and y)
+
+print("x or y is ", x or y)
+
+print("not x is", not x)
+
+print("not y is", not y)
+
+Here is a summary of what the logical operator in python do:
+
+		OPERATOR		MEANING
+
+		and			returns True if both the operand are True.
+
+		or			returns True if either of the operands is True.
+
+		not			returns True if operand is False and False if the operand is True.
+
+
+
+	MEMBERSHIP OPERATORS
+
+There are two membership operators in python: in, not in.
+They are used to test whether a variable or value is present in a sequence
+such as string, dictionary, list, set, or tuple. We will learn about this types later on.
+
+x = "Hello world"
+y = {1:"x", 2:"y"}
+
+print("H" in x)
+
+print("Hello" not in x)
+
+print(2 in y)
+
+print("z" in y)
+
+The table below should help you understand why you get the result you see.
+
+		OPERATORS		MEANING
+
+		in			returns True if the variable or variable is found in the sequence.
+
+		not in 			returns True if the variable or value is not found in the sequence.
+
+
+
+	IDENTITY OPERATOR
+
+Identity operators are another kind of special operators in python. They are "is" and "is not".
+These operator are used to check if two variables or values are located on the same memory allocation.
+
+x1 = 10
+y1 = 10
+
+x2 = "hello"
+y2 = "hello"
+
+x3 = [1, 2, 3] 
+y3 = [1, 2, 3]
+
+print(x1 is y1)
+print(x2 is y2)
+print(x3 is y3)
+
+print(x1 is not y1)
+print(x2 is not y2)
+print(x3 is not y3)
+
+
+In this code above, x1 and y1 are variables with similar values (integer value 10).
+This means that they are equal and identical, just are variables x2 and y2 with similar and equal
+string values. However, x3 and y3, although equal, are not identical because thay are lists and lists
+are mutable (this means they can be changed). The interpreter allocates the lists separate memory
+even when they are equal.
+
+Here is a table defining what the identity operator do:
+
+		OPERATORS		MEANING
+
+		is			returns True if the operands are identical.
+
+		is not			returns True if the operands are not identical.
+
+
+
+	BITWISE OPERATORS
+
+Bitwise operators in python act on operands in binary digit form, bit by bit.
+
+Here is a summary of the operators:
+
+		OPERATORS		MEANING
+
+		&			bitwise AND
+
+		|			bitwise OR
+
+		~			bitwise NOT
+
+		^			bitwise XOR
+
+		>>			bitwise right shift
+
+		<<			bitwise left shift
+
+
+
+	OPERATOR PRECEDENCE IN PYTHON
+
+To evaluate expression with more than a single operator, python uses a rule of precedence that guides 
+the order in which the operators are executed. For instance, multiplication has a higher precedence
+than addition, and addition higher than subtractiion.
+
+This rigid order can be changed using parentheses () as it has the highest precedence. The table below
+lists the precedence of all operators from the highest to the lowest.
+
+		OPERATORS		DESCRIPTION
+		
+1.		() 			parentheses
+
+2.		**			exponentiation (raise to the power)
+
+3.		~ + -			complement, unary plus +@ and minus -@
+
+4.		* / % //		multiply, divide, modulus, and floor division
+
+5.		+ -			addition and subtraction
+
+6.		>> <<			right and left bitwise shift
+
+7.		&			bitwise AND
+
+8.		^ |			bitwise exclusive XOR and bitwise regular OR
+
+9.		<= <  > >=		comparison operators or relational operators
+
+10.		<> == !=		equality operators
+
+11.	= %= /= //= -= += *= **= 	assignment operators
+
+12.		is,  is not		identity operators
+
+13.		in,  not in 		membership operators
+
+14.		not, or, and		logical operators.
+
+
+
 
