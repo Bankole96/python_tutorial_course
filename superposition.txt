@@ -1,0 +1,4 @@
+			PYTHON CODE 
+executable file
+type ---> chmod u+x name of the file
+the real programming code
