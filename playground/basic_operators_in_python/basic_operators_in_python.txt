@@ -274,7 +274,7 @@ print(x2 is not y2)
 print(x3 is not y3)
 
 
-In this code above, x1 and y1 are variables with similar values (integer value 10).
+In this  code above, x1 and y1 are variables with similar values (integer value 10).
 This means that they are equal and identical, just are variables x2 and y2 with similar and equal
 string values. However, x3 and y3, although equal, are not identical because thay are lists and lists
 are mutable (this means they can be changed). The interpreter allocates the lists separate memory
